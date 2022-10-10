@@ -1,0 +1,1 @@
+select concat(initcap(firstname), ' ', initcap(lastname)) as shortlist from Elves where firstname like '%tegil%' or lastname like '%astar%';
